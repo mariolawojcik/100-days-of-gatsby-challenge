@@ -1,0 +1,52 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+html body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 40px;
+}
+.nav li {
+    padding: 20px 30px 20px 0;
+}
+.nav li a {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: gray;
+}
+.main-nav {
+    background-color: #FFF60A;
+    position: relative;
+    /*background-color: #989265;*/
+    /*background-color: #FCF9EE;*/
+    /*background-color: #1E1C0C;*/
+}
+
+.sub-nav {
+    background-color: #d6d6d6;
+    position: absolute;
+    width: 100%;
+}
+
+.sub-nav li a {
+    color: white;
+}
+
+.view {
+    padding: 60px 40px;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+
+
+
