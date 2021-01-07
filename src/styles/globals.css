@@ -32,7 +32,7 @@ html body {
 .sub-nav {
     background-color: #d6d6d6;
     position: absolute;
-    width: 100%;
+    width: calc(100vw - 80px);
 }
 
 .sub-nav li a {
